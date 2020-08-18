@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="40"/>
+<entry key="0" type="xstring" value="年龄"/>
+<entry key="1" type="xstring" value="党派"/>
+<entry key="2" type="xstring" value="干部级别"/>
+<entry key="3" type="xstring" value="学历"/>
+<entry key="4" type="xstring" value="是否为清北毕业生"/>
+<entry key="5" type="xstring" value="是否有党校学位"/>
+<entry key="6" type="xstring" value="是否曾在国企任职"/>
+<entry key="7" type="xstring" value="是否曾在高校任职"/>
+<entry key="8" type="xstring" value="是否曾在私企任职"/>
+<entry key="9" type="xstring" value="北京市"/>
+<entry key="10" type="xstring" value="天津市"/>
+<entry key="11" type="xstring" value="上海市"/>
+<entry key="12" type="xstring" value="重庆市"/>
+<entry key="13" type="xstring" value="内蒙古自治区"/>
+<entry key="14" type="xstring" value="广西壮族自治区"/>
+<entry key="15" type="xstring" value="西藏自治区"/>
+<entry key="16" type="xstring" value="新疆维吾尔自治区"/>
+<entry key="17" type="xstring" value="河北省"/>
+<entry key="18" type="xstring" value="山西省"/>
+<entry key="19" type="xstring" value="辽宁省"/>
+<entry key="20" type="xstring" value="吉林省"/>
+<entry key="21" type="xstring" value="黑龙江省"/>
+<entry key="22" type="xstring" value="江苏省"/>
+<entry key="23" type="xstring" value="浙江省"/>
+<entry key="24" type="xstring" value="安徽省"/>
+<entry key="25" type="xstring" value="福建省"/>
+<entry key="26" type="xstring" value="江西省"/>
+<entry key="27" type="xstring" value="山东省"/>
+<entry key="28" type="xstring" value="河南省"/>
+<entry key="29" type="xstring" value="湖北省"/>
+<entry key="30" type="xstring" value="湖南省"/>
+<entry key="31" type="xstring" value="广东省"/>
+<entry key="32" type="xstring" value="海南省"/>
+<entry key="33" type="xstring" value="四川省"/>
+<entry key="34" type="xstring" value="贵州省"/>
+<entry key="35" type="xstring" value="云南省"/>
+<entry key="36" type="xstring" value="陕西省"/>
+<entry key="37" type="xstring" value="甘肃省"/>
+<entry key="38" type="xstring" value="青海省"/>
+<entry key="39" type="xstring" value="培养潜力"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="姓名"/>
+<entry key="1" type="xstring" value="性别"/>
+<entry key="2" type="xstring" value="职位"/>
+<entry key="3" type="xstring" value="民族"/>
+<entry key="4" type="xstring" value="籍贯"/>
+<entry key="5" type="xstring" value="宁夏回族自治区"/>
+<entry key="6" type="xstring" value="台湾省"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201912041211"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201912041824"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 119, Cols: 40"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5af4a725-70fa-4fbf-993d-2e0e799fa6fe"/>
+</config>
+</config>
